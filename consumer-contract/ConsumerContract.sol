@@ -6,7 +6,7 @@ interface IInvokeOracle {
    function showPrice(uint256 _reqid) external view returns (uint256 answer, uint256 updatedOn);
 }
 contract ConsumerContract {
-   address CONTRACTADDR = 0xA6c0B2442d3829eeeaa69F7351bAd4D68C4A5F09;
+   address CONTRACTADDR = 0xa78FE51D7F9ca4EE4CfC38aEA3f0853F0E5C7AeD;
    uint256 public requestId;
    address private owner;
    constructor() public{
